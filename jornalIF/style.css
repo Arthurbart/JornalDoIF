@@ -1,0 +1,165 @@
+* {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#tudo {
+    min-height: 100vh;
+    width: 100vw;
+    margin: auto;
+}
+
+#cabecalho {
+    min-height: 15vh;
+    background-color: rgb(34, 71, 115);
+    position: sticky;
+    top: 0;
+}
+
+#cabecalho h1 {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-family: Arial;
+    margin-bottom: 0px;
+}
+
+#cabecalho h2 {
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    font-family: Arial;
+}
+
+#menu {
+    min-height: 12vh;
+    background-color: rgb(20, 56, 100);
+}
+
+#menu h2 {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    padding-top: 15px;
+}
+
+#menu h2 a:link, a:visited{
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+#menu h2 a:hover, a:active{
+    text-align: center;
+    font-family: Arial;
+    padding-top: 15px;
+    color: rgb(171, 187, 207);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#burguer:hover, #burguer:active {
+    color: rgb(171, 187, 207);
+    cursor: pointer;
+}
+
+#itens {
+    display: none;
+    padding-bottom: 10px;
+}
+
+#itens p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#itens p a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+.botao{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    background-color: rgb(34, 71, 115);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#texto {
+    margin: auto;
+    width: 80%;
+    font-family: Arial;
+}
+
+#texto h1{
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-family: Arial;
+    text-align: center;
+}
+
+#texto p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial;
+    display: inline-block;
+}
+
+#texto p ul li{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial;
+    display: inline-block;
+}
+
+#texto img {
+    display: inline-block;
+}
+
+.textoimagem {
+    display: flex;
+}
+
+.textoimagem p{
+    padding-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.contato, .sobre {
+    padding: 5px;
+    flex: 1;
+    text-align: center;
+   
+}
+.direitos {
+    text-align: center;
+    margin-top: 20px;
+}
